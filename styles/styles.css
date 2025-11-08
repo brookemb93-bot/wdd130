@@ -24,20 +24,20 @@ main {
     max-width: 840px;
 }
 main img {
-    width: 150px
-    height: auto
+    width: 150px;
+    height: auto;
 }
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgb(000/0.2);
+    border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
     background-color: #b4a8a3;
     color: white;
     text-align: center;
 }
 aside img {
-    width: 200px
+    width: 200px;
     height: auto;
 }
 footer {
