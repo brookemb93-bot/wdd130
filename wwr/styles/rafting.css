@@ -133,7 +133,8 @@ footer {
 footer p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: larger;
-    color: white;
+    font-weight: 700;
+    color: black;
 }
 .socialmedia a{
     text-decoration: none;
