@@ -127,8 +127,8 @@ figure img {
 }
 footer {
     display: block;
-    background-color: rgb(59, 58, 58);
-    justify-content: baseline;   
+    background-color: rgb(170, 174, 179);
+   
 }
 footer p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
