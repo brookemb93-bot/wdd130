@@ -35,35 +35,46 @@
                 width="600" height="450" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-            <fieldset>
-                <form>
+            <form action="#">
+                <fieldset>
                     <h3>Don't Miss Out, Subscribe to Our Newsletter!</h3>
 
-                    <label for="username">Full Name</label>
-                    <input type="text" id="username" name="username">
+                    <div class="form-item column1">
+                        <label for="username">Name:</label>
+                        <input type="text" id="username" name="username" placeholder="Your Full Name">
 
-                    <label for="email">Email Address</label>
-                    <input type="email" id="email" name="email">
 
-                    <h3>Message Purpose</h3>
-                    <label for="option1">General Inquiry</label>
-                    <input type="radio" id="option1" name="purpose" value="general inquiry">
 
-                    <label for="option2">Reservation Question</label>
-                    <input type="radio" id="option2" name="purpose" value="reservation question">
+                        <label for="email">Address:</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email Address">
+                    </div>
 
-                    <label for="option3">Website Suggestion</label>
-                    <input type="radio" id="option3" name="purpose" value="website suggestion">
+                    <h3 class="message">Message Purpose</h3>
+                    <div class="form-item column2">
 
-                    <label for="message">Type Message Here:</label>
-                    <textarea id="message" name="message" rows="7"></textarea>
+                        <input type="radio" id="option1" name="purpose" value="general inquiry">
+                        <label for="option1">General Inquiry</label>
 
-                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
-                    <input type="checkbox" id="subscribe" name="subscribe">
+                        <input type="radio" id="option2" name="purpose" value="reservation question">
+                        <label for="option2">Reservation Question</label>
+
+                        <input type="radio" id="option3" name="purpose" value="website suggestion">
+                        <label for="option3">Website Suggestion</label>
+                    </div>
+
+                    <div class="form-item column3">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="7" placeholder="Your Message Here"></textarea>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="subscribe" name="subscribe">
+                        <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                    </div>
 
                     <button type="submit">Submit Message</button>
-                </form>
-            </fieldset>
+                </fieldset>
+            </form>
         </div>
 
         <section class="employees">
