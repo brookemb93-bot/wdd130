@@ -59,6 +59,7 @@ nav {
     
 }
 .links a, .trips a, .contactlink a {
+    border-radius: 5px;
     background-color: var(--accent1-color);
     padding: 1em;
     color: white;
