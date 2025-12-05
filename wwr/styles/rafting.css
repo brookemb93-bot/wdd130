@@ -39,7 +39,7 @@ h1, h2 {
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.7;
+    opacity: 90%;
     background-color: var(--accent1-color);
     color: #fff;
 }
@@ -58,7 +58,7 @@ nav {
     justify-content: space-around;
     
 }
-.links a {
+.links a, .trips a, .contactlink a {
     background-color: var(--accent1-color);
     padding: 1em;
     color: white;
@@ -68,9 +68,26 @@ nav {
     font-size: larger;
 }
 
-.links a:hover {
+.links a:hover, .trips a:hover, .contactlink a:hover{
     background-color: white;
     color: var(--accent1-color);
+}
+
+.trips a {
+    padding: 2em 4em;
+    font-size: 3rem ;
+}
+
+.contactlink a {
+    padding: 1em 2em;
+    font-size: 3rem;
+    margin-left: 1rem;
+}
+.trips, .contactlink {
+    position: absolute;
+    align-self: center;
+    /* justify-self: flex-start; */
+    margin: 25px 25px -50px;
 }
 nav, p, section, article {
     margin: 16px;
@@ -273,4 +290,55 @@ button {
 
 button:hover {
     background-color: var(--primary-color);
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140, 140, 140);
+    letter-spacing: 1px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid rgb(140, 140, 140);
+    padding: 8px 12px;
+    text-align: center;
+}
+
+thead tr, tfoot tr {
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
+
+.bears, .contactlink {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.bears h1, .contactlink h1 {
+    background-color: var(--secondary-color);
+    color: black;
+    padding: 1.5em;
+    text-align: center;
+}
+
+.links-trips {
+    background-color: var(--primary-color);
+}
+
+.tripsform {
+    margin-bottom: 75px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.tripsform img {
+ padding-right: 1em;
+}
+
+.tripstable {
+    margin-top: -50px;
 }
