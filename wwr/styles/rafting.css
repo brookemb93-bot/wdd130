@@ -7,7 +7,7 @@
     --primary-color: #131581fb;
     --secondary-color: #fed502;
     --accent1-color: #004529;
-    --accent2-color: #b74a17;
+    --accent2-color: #d1602c;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -282,8 +282,8 @@ button {
     margin-top: 20px;
     font-size: 1.25em;
     padding: 10px 20px;
-    background-color: var(--accent2-color);
-    color: rgb(240, 239, 239);
+    background-color: var(--secondary-color);
+    color: black;
     border: 1px solid rgb(240, 239, 239);
     border-radius: 5px;
     cursor: pointer;
@@ -291,6 +291,7 @@ button {
 
 button:hover {
     background-color: var(--primary-color);
+    color: white;
 }
 
 table {
